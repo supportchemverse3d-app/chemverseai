@@ -1,0 +1,96 @@
+{
+  "explanation": "Electric charge is a basic property of matter that makes it feel a force in an electric or magnetic field. Charges are of **two kinds**, named positive and negative by convention. Like charges repel and unlike charges attract.\n\nMatter is made of atoms with a positively charged nucleus (protons) surrounded by negatively charged electrons. A body is **neutral** when it has equal numbers of protons and electrons. It becomes charged by gaining or losing electrons; protons stay fixed in the nucleus. A body with extra electrons is negatively charged and one with a deficit of electrons is positively charged.\n\n**Conductors** (metals, the human body, tap water) allow charge to move through them. **Insulators** (glass, rubber, dry wood, plastic) do not. Bodies can be charged by **friction** (rubbing transfers electrons from one material to the other), by **conduction** (contact with a charged body) and by **induction** (charging without contact by bringing a charged body near).\n\nThree fundamental properties of charge are essential for this chapter:\n\n1. **Additivity:** the total charge of a system is the algebraic sum of the charges in it.\n2. **Conservation:** the total charge of an isolated system does not change. Charge can be moved or transferred but not created or destroyed.\n3. **Quantisation:** the charge on any body is an integer multiple of the elementary charge $e$: $q = ne$.",
+  "definitions": [
+    {
+      "term": "Electric charge",
+      "meaning": "A property of matter due to which it experiences a force in an electric field. SI unit: coulomb (C)."
+    },
+    {
+      "term": "Coulomb",
+      "meaning": "The SI unit of charge; the charge that passes a point in $1$ s when a current of $1$ A flows."
+    },
+    {
+      "term": "Elementary charge",
+      "meaning": "The magnitude of charge on an electron or proton, $e = 1.602 \\times 10^{-19}$ C."
+    },
+    {
+      "term": "Quantisation of charge",
+      "meaning": "Charge exists only in whole-number multiples of $e$."
+    }
+  ],
+  "concepts": [
+    "Only electrons move when solids are charged; protons are bound inside nuclei.",
+    "Charging by friction produces equal and opposite charges on the two bodies, which shows conservation of charge.",
+    "In induction the nearby charged body never touches the neutral body, and the charge gained is **opposite** to the inducing charge.",
+    "Quantisation is not noticed in everyday life because $e$ is extremely small: even $1$ µC contains about $10^{13}$ elementary charges.",
+    "An object that is positively charged has **lost** electrons, so its mass decreases by a negligible amount."
+  ],
+  "formulas": [
+    {
+      "name": "Quantisation of charge",
+      "formula": "q = ne, \\quad n = 0, \\pm 1, \\pm 2, \\dots"
+    },
+    {
+      "name": "Elementary charge",
+      "formula": "e = 1.602 \\times 10^{-19}\\ \\text{C}",
+      "note": "Often taken as $1.6 \\times 10^{-19}$ C in problems."
+    },
+    {
+      "name": "Net charge of a system",
+      "formula": "q_{\\text{net}} = q_1 + q_2 + \\dots + q_n"
+    }
+  ],
+  "examples": [
+    {
+      "title": "Number of electrons",
+      "problem": "How many electrons together carry a charge of $1$ C? (Take $e = 1.6 \\times 10^{-19}$ C.)",
+      "solution": "1. Use $q = ne$, so $n = \\frac{q}{e}$.\n2. $n = \\frac{1}{1.6 \\times 10^{-19}} = 6.25 \\times 10^{18}$.\n\n**Answer: about $6.25 \\times 10^{18}$ electrons.**"
+    },
+    {
+      "title": "Charge from excess electrons",
+      "problem": "A body has $5 \\times 10^{10}$ excess electrons. Find its charge.",
+      "solution": "1. The body has extra electrons, so its charge is negative.\n2. $q = -ne = -(5 \\times 10^{10})(1.6 \\times 10^{-19})$ C.\n3. $q = -8 \\times 10^{-9}$ C.\n\n**Answer: $-8 \\times 10^{-9}$ C (that is, $-8$ nC).**"
+    }
+  ],
+  "practice": [
+    {
+      "question": "A body carries a charge of $3.2 \\times 10^{-18}$ C. How many electrons has it gained or lost, and which?",
+      "answer": "$n = \\frac{3.2 \\times 10^{-18}}{1.6 \\times 10^{-19}} = 20$. The charge is **positive**, so the body has **lost** $20$ electrons."
+    },
+    {
+      "question": "A glass rod rubbed with silk acquires $+2.0 \\times 10^{-8}$ C. What charge does the silk acquire, and why?",
+      "answer": "$-2.0 \\times 10^{-8}$ C. The rod and silk were neutral, so the total charge stays zero (conservation of charge); electrons moved from the rod to the silk."
+    },
+    {
+      "question": "Can a body have a charge of $2.4 \\times 10^{-19}$ C?",
+      "answer": "No. $\\frac{2.4 \\times 10^{-19}}{1.6 \\times 10^{-19}} = 1.5$ is not an integer, which violates quantisation of charge for free bodies."
+    },
+    {
+      "question": "Two identical metal spheres carry $+6$ µC and $-2$ µC. They are touched together and separated. What is the charge on each?",
+      "answer": "Total charge $= +6 + (-2) = +4$ µC. Identical spheres share it equally, so each has $+2$ µC."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Why does a charged comb pick up small pieces of paper?",
+      "a": "The paper is neutral, but the comb's charge polarises it: charges of opposite sign are drawn slightly nearer the comb and those of the same sign are pushed slightly away. The attraction to the nearer opposite charge is stronger than the repulsion, so the paper is pulled to the comb."
+    },
+    {
+      "q": "Is charge really never created?",
+      "a": "In every process studied at this level, the total charge stays constant. When a pair of particles is created, one is positive and one is negative, so the total is still unchanged."
+    },
+    {
+      "q": "What is the difference between a conductor and an insulator?",
+      "a": "A conductor has free charges that move easily through it. In an insulator charges are tightly bound and do not move freely."
+    }
+  ],
+  "revision": [
+    "Like charges repel; unlike charges attract.",
+    "Additivity, conservation and quantisation of charge.",
+    "$q = ne$ with $e = 1.6 \\times 10^{-19}$ C.",
+    "Only electrons transfer in solids.",
+    "Charging: friction, conduction, induction (induced charge is opposite)."
+  ],
+  "relatedMolecules": [],
+  "source": "General learning material written for CHEMVERSE. Not an official textbook or board syllabus."
+}

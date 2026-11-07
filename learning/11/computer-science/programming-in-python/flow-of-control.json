@@ -1,0 +1,82 @@
+{
+  "explanation": "By default Python runs statements one after another. **Flow of control** statements change that order. Python has two kinds: **selection** (choose which block runs) and **iteration** (repeat a block).\n\n**Selection with `if`, `elif`, `else`**\n\n```python\nmarks = 72\nif marks >= 90:\n    grade = 'A'\nelif marks >= 75:\n    grade = 'B'\nelif marks >= 60:\n    grade = 'C'\nelse:\n    grade = 'D'\nprint(grade)   # C\n```\n\nConditions are checked from the top; the **first** true one runs and the rest are skipped. Blocks are marked by **indentation** (four spaces is the convention), and each header ends with a colon.\n\n**Iteration with `for` and `while`**\n\n```python\ntotal = 0\nfor i in range(1, 6):   # i = 1, 2, 3, 4, 5\n    total += i\nprint(total)            # 15\n```\n\n`range(start, stop, step)` produces numbers from `start` up to, but **not including**, `stop`. A `while` loop repeats as long as its condition is true, so something inside the loop must eventually make it false.\n\n**`break` and `continue`.** `break` leaves the loop at once. `continue` skips the rest of the current pass and goes to the next one.",
+  "definitions": [
+    {
+      "term": "Selection",
+      "meaning": "Choosing between blocks of code depending on a condition (`if`, `elif`, `else`)."
+    },
+    {
+      "term": "Iteration",
+      "meaning": "Repeating a block of code (`for`, `while`)."
+    },
+    {
+      "term": "Indentation",
+      "meaning": "The leading spaces that show which statements belong to a block. Python uses it instead of braces."
+    },
+    {
+      "term": "Boolean expression",
+      "meaning": "An expression whose value is `True` or `False`, such as `x > 5`."
+    }
+  ],
+  "concepts": [
+    "`range(5)` gives `0, 1, 2, 3, 4`; `range(2, 10, 3)` gives `2, 5, 8`.",
+    "`==` compares values; `=` assigns a value. Writing `if x = 5:` is a syntax error.",
+    "A `while` loop whose condition never becomes false is an **infinite loop**.",
+    "Logical operators `and`, `or`, `not` combine conditions.",
+    "`else` after a loop runs only if the loop ended without `break`."
+  ],
+  "formulas": [],
+  "examples": [
+    {
+      "title": "Sum of numbers",
+      "problem": "Write a program to print the sum of the first $10$ natural numbers.",
+      "solution": "```python\ntotal = 0\nfor n in range(1, 11):\n    total += n\nprint(total)\n```\n\n1. `total` starts at $0$.\n2. `range(1, 11)` gives $1$ to $10$.\n3. Each pass adds `n` to `total`.\n\n**Output: `55`**"
+    },
+    {
+      "title": "Using continue and break",
+      "problem": "What does this print?\n\n`n = 1`, then a `while n <= 20` loop with `if n % 2 == 0: n += 1; continue`, then `if n > 9: break`, then `print(n)` and `n += 1`.",
+      "solution": "```python\nn = 1\nwhile n <= 20:\n    if n % 2 == 0:\n        n += 1\n        continue\n    if n > 9:\n        break\n    print(n)\n    n += 1\n```\n\n1. Even values of `n` are skipped by `continue` (after adding $1$).\n2. Odd values are printed until `n` reaches $11$, which is greater than $9$, so `break` ends the loop.\n\n**Output: `1`, `3`, `5`, `7`, `9`, one per line.**"
+    }
+  ],
+  "practice": [
+    {
+      "question": "What is printed by `for i in range(2, 10, 3): print(i)`?",
+      "answer": "`2`, `5` and `8`, each on its own line. The loop starts at $2$, steps by $3$ and stops before $10$."
+    },
+    {
+      "question": "Write a program that prints `Even` or `Odd` for a number `n`.",
+      "answer": "```python\nn = int(input('Enter a number: '))\nif n % 2 == 0:\n    print('Even')\nelse:\n    print('Odd')\n```"
+    },
+    {
+      "question": "How many times does `while x < 3:` run if `x` starts at $0$ and the body is `x += 1`?",
+      "answer": "$3$ times (for `x = 0`, `1` and `2`). When `x` becomes $3$ the condition is false."
+    },
+    {
+      "question": "Find the error: `if marks > 40` followed by an indented `print('Pass')`.",
+      "answer": "The `if` header is missing its **colon**. Correct: `if marks > 40:`."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Why does `range(1, 5)` not include $5$?",
+      "a": "The stop value is always excluded. `range(1, 5)` gives `1, 2, 3, 4`. Use `range(1, 6)` to include $5$."
+    },
+    {
+      "q": "When should I use `while` instead of `for`?",
+      "a": "Use `for` when the number of repetitions is known or you are going through a sequence. Use `while` when you repeat until a condition changes, such as until the user enters a valid value."
+    },
+    {
+      "q": "What does an IndentationError mean?",
+      "a": "The spaces at the start of a line do not match the block structure. Make every statement in the same block use the same number of spaces."
+    }
+  ],
+  "revision": [
+    "`if` / `elif` / `else`: the first true branch runs.",
+    "Blocks use a colon and indentation.",
+    "`range(start, stop, step)` excludes `stop`.",
+    "`break` leaves the loop; `continue` skips to the next pass.",
+    "`==` compares, `=` assigns."
+  ],
+  "relatedMolecules": [],
+  "source": "General learning material written for CHEMVERSE. Not an official textbook or board syllabus."
+}

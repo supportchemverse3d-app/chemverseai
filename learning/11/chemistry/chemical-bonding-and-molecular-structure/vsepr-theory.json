@@ -1,0 +1,94 @@
+{
+  "explanation": "**VSEPR theory** (Valence Shell Electron Pair Repulsion) predicts the shape of a molecule from the number of electron pairs around the **central atom**. Electron pairs in the valence shell repel one another, so they arrange themselves as far apart as possible. The arrangement of **all** electron pairs gives the *electron geometry*; the arrangement of the **atoms only** gives the *molecular geometry*.\n\n**Steps**\n\n1. Draw the Lewis structure and pick the central atom.\n2. Count the **steric number** = number of atoms bonded to the central atom + number of lone pairs on it. (A double or triple bond counts as one region of electron density.)\n3. Choose the electron geometry from the steric number.\n4. Remove the lone pairs from the picture to get the molecular geometry.\n\n| Steric number | Bond pairs + lone pairs | Electron geometry | Molecular geometry | Ideal angle | Example |\n|---|---|---|---|---|---|\n| 2 | 2 + 0 | Linear | Linear | 180° | CO₂ |\n| 3 | 3 + 0 | Trigonal planar | Trigonal planar | 120° | BF₃ |\n| 4 | 4 + 0 | Tetrahedral | Tetrahedral | 109.5° | CH₄ |\n| 4 | 3 + 1 | Tetrahedral | Trigonal pyramidal | about 107° | NH₃ |\n| 4 | 2 + 2 | Tetrahedral | Bent | about 104.5° | H₂O |\n| 5 | 5 + 0 | Trigonal bipyramidal | Trigonal bipyramidal | 90°, 120° | PCl₅ |\n| 6 | 6 + 0 | Octahedral | Octahedral | 90° | SF₆ |\n\n**Lone pairs take more space** than bond pairs because they are held by one nucleus only. The order of repulsion is: lone pair–lone pair > lone pair–bond pair > bond pair–bond pair. This is why the angle shrinks from $109.5^\\circ$ (CH₄) to about $107^\\circ$ (NH₃) and about $104.5^\\circ$ (H₂O).",
+  "definitions": [
+    {
+      "term": "Bond pair",
+      "meaning": "A pair of electrons shared between two atoms."
+    },
+    {
+      "term": "Lone pair",
+      "meaning": "A pair of valence electrons on an atom that is not shared in bonding."
+    },
+    {
+      "term": "Steric number",
+      "meaning": "Number of atoms bonded to the central atom plus the number of lone pairs on it."
+    },
+    {
+      "term": "Electron geometry",
+      "meaning": "The arrangement of all electron pairs (bonding and lone) around the central atom."
+    },
+    {
+      "term": "Molecular geometry",
+      "meaning": "The arrangement of the atoms only, with lone pairs not drawn."
+    }
+  ],
+  "concepts": [
+    "Multiple bonds count as a single region of electron density when finding the steric number.",
+    "Molecules with the same electron geometry can have different molecular geometries (CH₄, NH₃, H₂O are all based on a tetrahedron).",
+    "Lone pairs compress the bond angle, so the observed angle is smaller than the ideal one.",
+    "In trigonal bipyramidal shapes lone pairs occupy the equatorial positions, where they have the fewest close 90° repulsions.",
+    "VSEPR predicts shape. It does not explain bonding; hybridization and molecular orbital theory do that."
+  ],
+  "formulas": [],
+  "examples": [
+    {
+      "title": "Shape of NH₃",
+      "problem": "Predict the shape and the approximate H–N–H angle of ammonia, $NH_3$.",
+      "solution": "1. Nitrogen has $5$ valence electrons. Three form bonds with H, leaving $1$ lone pair.\n2. Steric number $= 3 + 1 = 4$, so the electron geometry is **tetrahedral**.\n3. One position is a lone pair, so the molecular geometry is **trigonal pyramidal**.\n4. The lone pair repels the bond pairs more strongly than they repel each other, so the angle is about $107^\\circ$, a little below $109.5^\\circ$."
+    },
+    {
+      "title": "Shape of CO₂",
+      "problem": "Predict the shape of carbon dioxide, $CO_2$.",
+      "solution": "1. The Lewis structure is $O=C=O$. Carbon has two double bonds and no lone pair.\n2. A double bond counts as one region, so the steric number is $2$.\n3. Two regions arrange at $180^\\circ$: the molecule is **linear**."
+    }
+  ],
+  "relatedMolecules": [
+    "water",
+    "ammonia",
+    "methane",
+    "carbon-dioxide",
+    "boron-trifluoride",
+    "phosphorus-pentachloride",
+    "sulfur-hexafluoride"
+  ],
+  "practice": [
+    {
+      "question": "Find the steric number and molecular geometry of $BF_3$.",
+      "answer": "Boron has $3$ bond pairs and no lone pair. Steric number $= 3$; the molecule is **trigonal planar** with $F-B-F = 120^\\circ$."
+    },
+    {
+      "question": "Why is the bond angle in $H_2O$ ($104.5^\\circ$) smaller than in $CH_4$ ($109.5^\\circ$)?",
+      "answer": "Oxygen has $2$ bond pairs and $2$ lone pairs. Lone pairs repel more strongly than bond pairs, so they push the two O–H bonds closer together than in the regular tetrahedron of $CH_4$."
+    },
+    {
+      "question": "Name the electron geometry and molecular geometry of $SF_6$.",
+      "answer": "Sulfur has $6$ bond pairs and no lone pair. Both are **octahedral**, with all $F-S-F$ angles $90^\\circ$ between neighbouring bonds."
+    },
+    {
+      "question": "$NH_3$ and $BF_3$ both have three atoms attached to the central atom. Why do they have different shapes?",
+      "answer": "$NH_3$ has an extra lone pair on N (steric number $4$, trigonal pyramidal). $BF_3$ has none (steric number $3$, trigonal planar)."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Why are the angles in the 3D viewer slightly different from the textbook values?",
+      "a": "CHEMVERSE builds its 3D models from idealised VSEPR geometry, so a molecule such as water shows the ideal tetrahedral angle of $109.5^\\circ$ instead of the measured $104.5^\\circ$. The viewer's own measurement panel lists literature values where the app has them."
+    },
+    {
+      "q": "Do lone pairs count as part of the molecular shape?",
+      "a": "They decide the shape but are not named in it. $H_2O$ is called *bent*, not tetrahedral, even though its four electron pairs are arranged tetrahedrally."
+    },
+    {
+      "q": "How do I count electron regions for a double bond?",
+      "a": "A double or triple bond is **one** region. In $O=C=O$, carbon has two regions, so the shape is linear."
+    }
+  ],
+  "revision": [
+    "Steric number = bonded atoms + lone pairs on the central atom.",
+    "2 linear 180°, 3 trigonal planar 120°, 4 tetrahedral 109.5°, 5 trigonal bipyramidal, 6 octahedral 90°.",
+    "Repulsion: lp–lp > lp–bp > bp–bp.",
+    "CH₄ 109.5°, NH₃ about 107°, H₂O about 104.5°.",
+    "Multiple bond = one region."
+  ],
+  "source": "General learning material written for CHEMVERSE. Not an official textbook or board syllabus."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "molecules",
+  "schemaVersion": 1,
+  "contentVersion": "2026-11-05",
+  "counts": {
+    "total": 106,
+    "draft": 106,
+    "reviewed": 0,
+    "verified": 0
+  },
+  "dependencies": []
+}

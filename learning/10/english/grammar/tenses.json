@@ -1,0 +1,89 @@
+{
+  "explanation": "A tense shows the time of an action (past, present or future) and whether the action is simple, continuing, complete, or complete with a continuing effect (the **aspect**). English has three times and four aspects, which gives twelve tense forms.\n\n| Aspect | Present | Past | Future |\n|---|---|---|---|\n| Simple | She writes. | She wrote. | She will write. |\n| Continuous | She is writing. | She was writing. | She will be writing. |\n| Perfect | She has written. | She had written. | She will have written. |\n| Perfect continuous | She has been writing. | She had been writing. | She will have been writing. |\n\n**Simple** tenses state facts, habits and single completed events. **Continuous** tenses show an action in progress at a point of time. **Perfect** tenses link two points of time: the action is finished before the reference point. **Perfect continuous** tenses stress how long an action has been going on up to the reference point.\n\nHelping verbs: *do/does/did* (simple, in questions and negatives), *am/is/are/was/were* + verb-ing (continuous), *have/has/had* + past participle (perfect), *have/has/had been* + verb-ing (perfect continuous), and *will/shall* for the future.",
+  "definitions": [
+    {
+      "term": "Tense",
+      "meaning": "The form of a verb that shows the time of an action or state."
+    },
+    {
+      "term": "Past participle",
+      "meaning": "The third form of the verb (written, gone, played) used with *have/has/had* and in the passive voice."
+    },
+    {
+      "term": "Time expression",
+      "meaning": "A word or phrase such as *yesterday*, *since 2019*, *for two hours* that points to the tense to be used."
+    }
+  ],
+  "concepts": [
+    "**Simple present** is used for habits, general truths and fixed schedules: *Water boils at 100 °C.*",
+    "**Present perfect** connects past and present and does not use a finished time: *I have visited Jaipur.* but *I visited Jaipur last year.*",
+    "**Since** is followed by a point of time (*since 2020*), **for** by a period (*for six years*).",
+    "With *he/she/it* the simple present verb takes **-s/-es**: *She plays*, *He watches*.",
+    "After *did*, the main verb returns to its base form: *Did he go?* not *Did he went?*",
+    "In time and condition clauses the present tense stands for the future: *If it rains, we will stay home.*"
+  ],
+  "examples": [
+    {
+      "title": "Choose the tense",
+      "problem": "Fill in with the correct form: *By the time we reached the station, the train ____ (leave).*",
+      "solution": "**Answer: had left.**\n\n1. Two past events are mentioned: *we reached* and *the train left*.\n2. The leaving happened **earlier** than the reaching.\n3. The earlier of two past actions takes the **past perfect**: *had* + past participle.\n\nSo: *By the time we reached the station, the train **had left**.*"
+    },
+    {
+      "title": "Since or for",
+      "problem": "Complete: *He has been living in Pune ____ 2018 and has been teaching ____ ten years.*",
+      "solution": "**Answer: since … for.**\n\n1. *2018* is a point of time, so use **since**.\n2. *ten years* is a length of time, so use **for**.\n3. Both parts use the present perfect continuous (*has been living*, *has been teaching*)."
+    },
+    {
+      "title": "Correct the sentence",
+      "problem": "Correct: *She is knowing the answer.*",
+      "solution": "**Correct: *She knows the answer.***\n\n*Know* is a **stative verb** (it describes a state, not an action in progress). Stative verbs such as *know, like, love, want, believe, understand* are normally not used in continuous tenses."
+    }
+  ],
+  "formulas": [],
+  "practice": [
+    {
+      "question": "Fill in: *The children ____ (play) in the garden when it started to rain.*",
+      "answer": "**were playing.** The playing was in progress at a moment in the past (when it started to rain), so the past continuous is used."
+    },
+    {
+      "question": "Fill in: *I ____ (not see) him since Monday.*",
+      "answer": "**have not seen.** *Since Monday* needs the present perfect: *I have not seen him since Monday.*"
+    },
+    {
+      "question": "Fill in: *Next year, my sister ____ (complete) her degree.*",
+      "answer": "**will complete** (simple future) for a plain statement about next year. *Will have completed* is used only when a deadline is given, e.g. *by next June*."
+    },
+    {
+      "question": "Correct the error: *He go to school every day.*",
+      "answer": "**He goes to school every day.** The simple present takes **-es** with *he/she/it*."
+    },
+    {
+      "question": "Rewrite in the past perfect: *They finished the match. Then it began to rain.*",
+      "answer": "**They had finished the match before it began to rain.** (or *When it began to rain, they had finished the match.*)"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is the difference between the simple past and the present perfect?",
+      "a": "The **simple past** is for an action finished at a definite past time (*I met her yesterday*). The **present perfect** is for a past action that matters now or whose time is not stated (*I have met her*). Never use a finished-time word such as *yesterday* or *in 2010* with the present perfect."
+    },
+    {
+      "q": "Can I use *will* in an *if*-clause?",
+      "a": "Not for the condition itself. Write *If it rains, we will stay home*, not *If it will rain…*. The *if*-clause takes the present simple."
+    },
+    {
+      "q": "How do I recognise the future perfect?",
+      "a": "Look for a deadline: *by 5 p.m.*, *by next year*. The form is *will have* + past participle: *She will have finished by 5 p.m.*"
+    }
+  ],
+  "revision": [
+    "12 tenses = 3 times × 4 aspects.",
+    "Perfect = *have/has/had* + past participle.",
+    "Continuous = *be* + verb-ing; stative verbs avoid it.",
+    "*Since* + point of time, *for* + period of time.",
+    "Earlier of two past actions → past perfect.",
+    "Present simple for future in *if/when/before/after* clauses."
+  ],
+  "relatedMolecules": [],
+  "source": "General learning material written for CHEMVERSE. Not an official textbook or board syllabus."
+}

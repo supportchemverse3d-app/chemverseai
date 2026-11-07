@@ -1,0 +1,12 @@
+{
+  "id": "elements",
+  "schemaVersion": 1,
+  "contentVersion": "2026-11-05",
+  "counts": {
+    "total": 118,
+    "draft": 118,
+    "reviewed": 0,
+    "verified": 0
+  },
+  "dependencies": []
+}
